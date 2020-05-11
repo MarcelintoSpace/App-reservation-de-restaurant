@@ -12,6 +12,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #FFC107;
+}
+
 h2 {
   font-family: 'Fredoka One', cursive;
   color: #FFC107;
@@ -53,6 +58,9 @@ section {
   justify-content: center;
   text-align: center;
   background-color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   }
 
 aside {
@@ -63,7 +71,7 @@ aside {
   height: 30.60em;
   border: 5px solid black;
   margin: 50px 50px 50px 50px;
-  
+
 }
 
 
