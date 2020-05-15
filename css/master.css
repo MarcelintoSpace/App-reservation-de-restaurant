@@ -25,7 +25,7 @@ h2 {
   font-size: 2.19em;
 }
 
-aside p {
+article p {
   font-size: 35px;
 }
 
@@ -63,7 +63,7 @@ section {
   margin-right: 20px;
   }
 
-aside {
+article {
   display: flex;
   flex-direction: column;
   justify-content: center;
