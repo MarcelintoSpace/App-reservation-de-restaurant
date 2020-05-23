@@ -147,11 +147,35 @@ footer a:link {
 }
 
 .btn_mention:hover {
-  transform: rotate(-5deg);
-    transition: transform 100ms ease;
+  animation-name: wigget;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 
 .btn_contact:hover {
-  transform: rotate(-5deg);
-    transition: transform 100ms ease;
+  animation-name: wigget;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+/* Keyframes */
+
+@keyframes wigget {
+  0% {
+    transform: rotate(0deg);
+}
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+}
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
