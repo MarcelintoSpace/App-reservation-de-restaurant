@@ -132,9 +132,16 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
   background-color: white;
   margin: 50px 0 50px 0;
   justify-content: center;
+  width: 100%;
 }
 
+.btn_link a {
+  display: flex;
+  flex-flow: row wrap;
+  }
+
 .btn_link {
+  display: flex;
   width: 450px;
   line-height: 4.375em;
   text-align: center;
@@ -142,6 +149,9 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
   background-color: #00796B;
   opacity: 0.8;
   border-radius: 8px;
+  height: 90px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .btn a:link {
@@ -150,6 +160,8 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
   opacity: 0.9;
   font-size: 2.5em;
   text-decoration: none;
+  margin-left: 20px;
+  align-items: center;
 }
 
 .btn a:visited {
@@ -160,12 +172,17 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
 
 footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   background-color: #00796B;
   opacity: 0.8;
-  height: 80px;
+  height: 100px;
   }
+
+footer button {
+  background-color: #00796B;
+  opacity: 0.8;
+  border: 0;
+}
 
 footer a:link {
   color: #FFC107;
@@ -180,24 +197,46 @@ footer a:link {
 }
 /* Animations */
 
-.point {
-      animation-name: petit_point;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
-      height: 10px;
-      width: 10px;
-      margin: 0 auto 0 auto;
-      transform-origin: bottom;
+.point1 {
+    animation-name: petit_point;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background-color: #FFC107;
+    opacity: 0.9;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform-origin: bottom;
+    width: 10px;
 }
 
-.point1 {
-      animation-delay: 100ms;
-      animation-timing-function: linear;
-    }
-
 .point2 {
-  animation-delay: 100ms;
-  animation-timing-function: linear;
+    animation-name: petit_point;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background-color: #FFC107;
+    opacity: 0.9;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform-origin: bottom;
+    width: 10px;
+}
+
+.point3 {
+    animation-name: petit_point;
+    animation-duration: 600ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background-color: #FFC107;
+    opacity: 0.9;
+    height: 10px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    transform-origin: bottom;
+    width: 10px;
 }
 
 .btn_mention:hover {
@@ -236,12 +275,12 @@ footer a:link {
 
 @keyframes petit_point {
   0% {
-    transform: scaleY(0);
+    transform: translateY(0);
   }
   50% {
-    transform: scaleY(-25px);
+    transform: translateY(-15px);
   }
   100% {
-    transform: scaleY(0);
+    transform: translateY(0);
   }
 }
