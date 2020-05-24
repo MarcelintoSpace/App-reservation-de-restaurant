@@ -52,6 +52,9 @@ header {
 }
 
 /*corp du site*/
+.menu1 {
+  background-color: #ffcdd2;
+}
 
 section {
   display: flex;
@@ -70,8 +73,8 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
   justify-content: center;
   width: 23.60em;
   height: 30.60em;
-  border: 5px solid black;
   margin: 50px 50px 50px 50px;
+  box-shadow: 2px 2px 2px grey;
 }
 
 .effet_menu {
@@ -83,46 +86,82 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
   transform: scale(1.30);
 }
 
+.logo_menu {
+  background: -webkit-linear-gradient(left, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1.5;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .menu1 span {
   font-family: 'Ma Shan Zheng', cursive;
   margin-bottom: 20px;
-    font-size: 35px;
+  font-size: 35px;
+  color: #3E2723;
+  height: 100px;
 }
 
 .menu1 h3 {
   font-family: 'Chilanka', cursive;
   margin-top: 0;
+  color: #3E2723;
+}
+
+.menu2 {
+  background-color: #F5F5F5;
 }
 
 .menu2 span {
   font-family: 'Redressed', cursive;
   margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #FF6D00, #311B92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu2 h3 {
   font-family: 'Domine', serif;
   margin-top: 0;
+  color: #DD2C00;
+}
+
+.menu3 {
+  background-color: #F5F5F5;
 }
 
 .menu3 span {
   font-family: 'Dynalight', cursive;
   margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #1A237E, #2196F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu3 h3 {
-  font-family: 'Bubblegum Sans', cursive;
+  font-family: 'Chilanka', cursive;
   margin-top: 0;
+  color: #2196F3;
+}
+
+.menu4 {
+  background-color: #F5F5F5;
 }
 
 .menu4 span {
   font-family: 'Dynalight', cursive;
   margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #558B2F, #AED581);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu4 h3 {
-  font-family: 'Bubblegum Sans', cursive;
+  font-family: 'Chilanka', cursive;
   margin-top: 0;
+  color: #558B2F;
 }
 
 /*Bouton*/
@@ -152,6 +191,7 @@ article .menu, .menu1, .menu2, .menu3, .menu4 {
   height: 90px;
   padding-top: 20px;
   padding-left: 20px;
+  box-shadow: 5px 5px 5px;
 }
 
 .btn a:link {

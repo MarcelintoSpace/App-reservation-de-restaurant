@@ -25,10 +25,6 @@ h2 {
   font-size: 2.19em;
 }
 
-article a {
-  font-size: 35px;
-}
-
 header h1 {
   margin-top: 20px;
   font-family: 'Fredoka One', cursive;
@@ -45,6 +41,8 @@ header {
   width: 100%;
 }
 
+
+
 .logo {
   display: flex;
   align-items: center;
@@ -56,11 +54,40 @@ header {
 .menu_note {
   display: flex;
   flex-direction: column;
+  margin: 10% 20% 10% 20%;
+  align-items: center;
+  text-align: center;
+  background-color: #ffcdd2;
+}
+
+.effet_menu {
+  margin-top: 20px;
+}
+
+.ligne_0 {
+  display: flex;
+  flex-flow: row wrap;
+  height: 50px;
+  width: auto;
+}
+
+.trait1 {
+  border-bottom: 5px dotted black;
+  margin: 20px 0 20px 0;
+}
+
+.titre_entree {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.8em;
+  color: #FFC107;
+  text-align: center;
 }
 
 .ligne_1 {
   display: flex;
   flex-flow: row wrap;
+  align-content: space-around;
+  margin-top: 20px;
 }
 
 .entree1 {
@@ -70,6 +97,7 @@ header {
 
 .entree1_prix {
   width: 30%;
+  text-align: right;
 }
 
 .ligne_2 {
@@ -84,6 +112,7 @@ header {
 
 .entree2_prix {
   width: 30%;
+  text-align: right;
 }
 
 .ligne_3 {
@@ -98,6 +127,7 @@ header {
 
 .entree3_prix {
   width: 30%;
+  text-align: right;
 }
 
 .ligne_4 {
@@ -112,8 +142,57 @@ header {
 
 .entree4_prix {
   width: 30%;
+  text-align: right;
 }
 
+/* Plats */
+
+.ligne_6 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.plat1 {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.plat1_prix {
+  width: 30%;
+  text-align: right;
+}
+
+.ligne_7 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.plat2 {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.plat2_prix {
+  width: 30%;
+  text-align: right;
+}
+
+.ligne_8 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.plat3 {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.plat3_prix {
+  width: 30%;
+  text-align: right;
+}
+
+/* Dessert */
 
 
 
