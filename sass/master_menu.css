@@ -14,7 +14,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #FFC107;
 }
 
 h2 {
@@ -41,8 +40,6 @@ header {
   width: 100%;
 }
 
-
-
 .logo {
   display: flex;
   align-items: center;
@@ -50,162 +47,127 @@ header {
 }
 
 /* Page des menu */
-
-.menu_note {
+section {
   display: flex;
   flex-direction: column;
-  margin: 10% 20% 10% 20%;
+  margin: 5% 20% 5% 20%;
   align-items: center;
   text-align: center;
   background-color: #ffcdd2;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 1.5em;
+  color: #3E2723;
 }
 
-.effet_menu {
+.effet_menu, .effet_menu2 {
   margin-top: 20px;
+  font-size: 2em;
+  color: #3E2723;
 }
 
-.ligne_0 {
+.logo_menu, .logo_menu2 {
+  background: -webkit-linear-gradient(left, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1.5;
+}
+
+.logo_menu2 {
+  margin-right: 20px;
+}
+
+.effet_menu2 {
+  margin-bottom: 50px;
+}
+
+.ligne_0, .ligne_5, .ligne_9 {
   display: flex;
-  flex-flow: row wrap;
+  align-items: center;
   height: 50px;
   width: auto;
+  margin: 20px 20px 20px 20px;
+  vertical-align: middle;
 }
 
 .trait1 {
-  border-bottom: 5px dotted black;
-  margin: 20px 0 20px 0;
+  border: 5px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 0;
+  width: 120px;
 }
 
 .titre_entree {
-  font-family: 'Fredoka One', cursive;
-  font-size: 1.8em;
-  color: #FFC107;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 1.5em;
+  color: #3E2723;
   text-align: center;
 }
 
 .ligne_1 {
   display: flex;
   flex-flow: row wrap;
-  align-content: space-around;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
-.entree1 {
-  width: 60%;
-  margin-right: 30px;
-}
-
-.entree1_prix {
-  width: 30%;
-  text-align: right;
-}
-
-.ligne_2 {
+.ligne_2, .ligne_3, .ligne_4 {
   display: flex;
   flex-flow: row wrap;
 }
 
-.entree2 {
+.entree1, .entree2, .entree3, .entree4 {
   width: 60%;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: justify;
 }
 
-.entree2_prix {
-  width: 30%;
+.entree1_prix, .entree2_prix, .entree3_prix, .entree4_prix {
+  width: 25%;
   text-align: right;
-}
-
-.ligne_3 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.entree3 {
-  width: 60%;
-  margin-right: 30px;
-}
-
-.entree3_prix {
-  width: 30%;
-  text-align: right;
-}
-
-.ligne_4 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.entree4 {
-  width: 60%;
-  margin-right: 30px;
-}
-
-.entree4_prix {
-  width: 30%;
-  text-align: right;
+  vertical-align: middle;
 }
 
 /* Plats */
-
-.ligne_6 {
+.ligne_6, .ligne_7, .ligne_8 {
   display: flex;
   flex-flow: row wrap;
 }
 
-.plat1 {
+.plat1, .plat2, .plat3 {
   width: 60%;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: justify;
 }
 
-.plat1_prix {
-  width: 30%;
+.plat1_prix, .plat2_prix, .plat3_prix {
+  width: 25%;
   text-align: right;
-}
-
-.ligne_7 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.plat2 {
-  width: 60%;
-  margin-right: 30px;
-}
-
-.plat2_prix {
-  width: 30%;
-  text-align: right;
-}
-
-.ligne_8 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.plat3 {
-  width: 60%;
-  margin-right: 30px;
-}
-
-.plat3_prix {
-  width: 30%;
-  text-align: right;
+  vertical-align: middle;
 }
 
 /* Dessert */
+.ligne_10, .ligne_11, .ligne_12 {
+  display: flex;
+  flex-flow: row wrap;
+}
 
-
-
+.dessert1, .dessert2, .dessert3 {
+  width: 85%;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
 
 /*pied de page*/
-
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: #00796B;
   opacity: 0.8;
-  }
+}
 
 footer button {
   background-color: #00796B;
@@ -240,20 +202,23 @@ footer a:link {
 }
 
 /* Keyframes */
-
 @keyframes wigget {
   0% {
     transform: rotate(0deg);
-}
+  }
+
   25% {
     transform: rotate(-5deg);
   }
+
   50% {
     transform: rotate(5deg);
-}
+  }
+
   50% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
