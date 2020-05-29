@@ -10,7 +10,7 @@ font-family: 'Bubblegum Sans', cursive;
 */
 body {
   margin: 0;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 /* Mise en Page */
@@ -53,7 +53,7 @@ header {
 }
 
 /* Corps du site */
-section {
+.box_menu {
   display: flex;
   flex-direction: column;
   margin: 5% 20% 5% 20%;
@@ -70,7 +70,7 @@ section {
   color: #3E2723;
 }
 
-.menu_palette {
+.menu_ntd {
   font-family: 'Dynalight', cursive;
   background-color: #F5F5F5;
   font-size: 1.8em;
@@ -86,17 +86,20 @@ section {
 
 .logo_menu2 {
   margin-right: 20px;
+  font-size: 1em;
 }
 
 .effet_menu2 {
   margin-bottom: 50px;
+
 }
 
 .titre {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  vertical-align: middle;
+  height: 80px;
   width: auto;
   margin: 20px 20px 20px 20px;
 }
@@ -114,7 +117,7 @@ section {
   font-size: 1.5em;
   color: black;
   text-align: center;
-}
+  }
 
 .colonne_gauche {
   width: 60%;
@@ -142,6 +145,7 @@ section {
   background: -webkit-linear-gradient(top, #FF6D00, #7986CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 30px;
 }
 
 .titre1_md {
@@ -151,6 +155,7 @@ section {
   background: -webkit-linear-gradient(left, #1A237E, #2196F3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 30px;
 }
 
 .titre1_mp {
@@ -159,6 +164,7 @@ section {
   background: -webkit-linear-gradient(left, #558B2F, #AED581);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 30px;
 }
 
 .titre1 {
@@ -168,11 +174,18 @@ section {
   background: -webkit-linear-gradient(left, #FF6D00, #7986CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 30px;
 }
 
-.effet_menu, .effet_menu2 {
+.effet_menu {
   margin-top: 20px;
   font-size: 2em;
+  color: #3E2723;
+}
+
+.effet_menu2 {
+  margin-top: 20px;
+  font-size: 1em;
   color: #3E2723;
 }
 
@@ -181,6 +194,12 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1.5;
+}
+
+.titre_entree:hover {
+  animation-name: animenu;
+  animation-duration: 750ms;
+  animation-timing-function: ease-in;
 }
 
 /*pied de page*/
@@ -232,6 +251,9 @@ footer a:link {
   animation-timing-function: ease;
 }
 
+/* Animation Menu*/
+
+
 /* Keyframes */
 
 @keyframes wigget {
@@ -253,5 +275,17 @@ footer a:link {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes animenu {
+  from {
+    transform: scale(0);
+    transition: .5s;
+    text-decoration: underline;
+  }
+  to {
+    transform: scale(1);
+    text-decoration: underline;
   }
 }
