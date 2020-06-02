@@ -143,7 +143,7 @@ header {
 
 
 .logo_menu {
-  background: -webkit-linear-gradient(left, red, yellow);
+  background: -webkit-linear-gradient(left, rgb(240, 80, 96), rgb(246, 145, 106));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1.5;
@@ -233,7 +233,8 @@ footer {
   bottom: 0;
   background-color: #00796B;
   opacity: 0.8;
-  height: 100px;
+padding-top: 30px;
+padding-bottom: 30px;
   width: 100%;
   }
 
@@ -251,11 +252,6 @@ footer a:link {
   font-family: 'Fredoka One', cursive;
 }
 
-/* Bouton Pied de page */
-
-.btn_mention, .btn_contact {
-  margin-top: 20px;
-}
 /* Animations Page d'accueil */
 
 .point1 {
@@ -372,9 +368,7 @@ footer a:link {
   header {
     height: 100px;
   }
-  footer {
-    height: 60px;
-  }
+
   .mentions {
     margin: 20px 50px 20px 50px;
   }
