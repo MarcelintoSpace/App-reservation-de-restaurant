@@ -185,7 +185,7 @@ header {
 }
 
 .logo_menu, .logo_menu2 {
-  background: -webkit-linear-gradient(left, red, yellow);
+  background: -webkit-linear-gradient(left, rgb(240, 80, 96), rgb(246, 145, 106));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1.5;
