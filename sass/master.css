@@ -1,0 +1,375 @@
+/*# sourceMappingURL=master.css.map */
+/*
+font-family: 'Fredoka One', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Chilanka', cursive;
+font-family: 'Domine', serif;
+font-family: 'Redressed', cursive;
+font-family: 'Dynalight', cursive;
+font-family: 'Bubblegum Sans', cursive;
+*/
+body {
+  margin: 0;
+  padding-bottom: 150px;
+}
+
+/* Mise en Page */
+
+a {
+  text-decoration: none;
+  color: #FFC107;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #FFC107;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 2.56vw;
+}
+
+.menu a {
+  font-size: 2.56vw;
+}
+
+/* haut de page */
+
+header h1 {
+  margin-top: 20px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 6.59vw;
+  color: #FFC107;
+  text-align: center;
+  opacity: 0.9;
+}
+
+header {
+  background-color: #00796B;
+  opacity: 0.8;
+  height: 160px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*corp de l'index*/
+
+.container_menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*structure Menu*/
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 380px;
+  height: 490px;
+  margin: 50px 50px 50px 50px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.menu1 {
+  background-color: #ffcdd2;
+}
+
+.menu1 span {
+  font-family: 'Ma Shan Zheng', cursive;
+  margin-bottom: 20px;
+  color: #3E2723;
+  height: 100px;
+}
+
+.menu1 h3 {
+  font-family: 'Chilanka', cursive;
+  margin-top: 0;
+  color: #3E2723;
+}
+
+.menu2 {
+  background-color: #F5F5F5;
+}
+
+.menu2 h3 {
+  font-family: 'Domine', serif;
+  margin-top: 0;
+  color: #DD2C00;
+}
+
+.menu3 {
+  background-color: #BBDEFB;
+}
+
+.menu3 h3 {
+  font-family: 'Chilanka', cursive;
+  margin-top: 0;
+  color: #2196F3;
+}
+
+.menu4 {
+  background-color: #F5F5F5;
+}
+
+.menu4 h3 {
+  font-family: 'Chilanka', cursive;
+  margin-top: 0;
+  color: #558B2F;
+}
+
+/* Effets & dégradé couleurs Menu */
+
+.effet_menu {
+  transform: scale(1);
+  transition-duration: 2s;
+}
+
+.effet_menu:hover {
+  transform: scale(1.30);
+  transition-timing-function: cubic-bezier(.02,.98,.02,.98);
+
+}
+
+
+.logo_menu {
+  background: -webkit-linear-gradient(left, rgb(240, 80, 96), rgb(246, 145, 106));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1.5;
+  font-size: 3.66vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu2 span {
+  font-family: 'Redressed', cursive;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #FF6D00, #311B92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu3 span {
+  font-family: 'Dynalight', cursive;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #1A237E, #2196F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu4 span {
+  font-family: 'Dynalight', cursive;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #558B2F, #AED581);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Bouton */
+
+.btn {
+  display: flex;
+  background-color: white;
+  margin: 50px 0 50px 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.btn_link a {
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+.btn_link {
+  display: flex;
+  width: 450px;
+  line-height: 4.375em;
+  text-align: center;
+  vertical-align: middle;
+  align-items: baseline;
+  background-color: #00796B;
+  opacity: 0.8;
+  border-radius: 8px;
+  height: 90px;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-shadow: 5px 5px 5px;
+}
+
+.btn a:link {
+  font-family: 'Fredoka One', cursive;
+  color: #FFC107;
+  opacity: 0.9;
+  font-size: 2.93vw;
+  text-decoration: none;
+  margin-left: 20px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.btn a:visited {
+  color: #FFC107;
+}
+
+/*pied de page*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  background-color: #00796B;
+  opacity: 0.8;
+padding-top: 30px;
+padding-bottom: 30px;
+  width: 100%;
+  }
+
+footer button {
+  background-color: #00796B;
+  opacity: 0.8;
+  border: 0;
+}
+
+footer a:link {
+  color: #FFC107;
+  opacity: 0.9;
+  text-decoration: none;
+  font-size: 2.05vw;
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Animations Page d'accueil */
+
+.point1 {
+    animation-name: petit_point;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background-color: #FFC107;
+    opacity: 0.9;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform-origin: bottom;
+    width: 10px;
+}
+
+.point2 {
+    animation-name: petit_point;
+    animation-duration: 1200ms;
+    animation-delay: 400ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background-color: #FFC107;
+    opacity: 0.9;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform-origin: bottom;
+    width: 10px;
+}
+
+.point3 {
+    animation-name: petit_point;
+    animation-duration: 1200ms;
+    animation-delay: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background-color: #FFC107;
+    opacity: 0.9;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform-origin: bottom;
+    width: 10px;
+}
+
+.btn_mention:hover {
+  animation-name: wigget;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.btn_contact:hover {
+  animation-name: wigget;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+/* Structure Mentions legales */
+
+.mentions {
+  margin: 20px 150px 20px 150px;
+}
+
+.mentions p {
+  text-align: justify;
+}
+
+/* Keyframes */
+
+@keyframes wigget {
+  0% {
+    transform: rotate(0deg);
+}
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+}
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes petit_point {
+  0% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(-15px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Media querie pour le responsive */
+
+/* Pour smartphone */
+
+@media only screen and (max-width: 600px) {
+  body {
+  width: 100%;
+  }
+  header {
+    height: 100px;
+  }
+
+  .mentions {
+    margin: 20px 50px 20px 50px;
+  }
+}

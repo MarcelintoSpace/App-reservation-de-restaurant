@@ -1,0 +1,280 @@
+/*# sourceMappingURL=master.css.map */
+/*
+font-family: 'Fredoka One', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Chilanka', cursive;
+font-family: 'Domine', serif;
+font-family: 'Redressed', cursive;
+font-family: 'Dynalight', cursive;
+font-family: 'Bubblegum Sans', cursive;
+*/
+body {
+  margin: 0;
+  padding-bottom: 150px;
+}
+
+/* Mise en Page */
+a {
+  text-decoration: none;
+  color: #FFC107;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #FFC107;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 2.19em;
+}
+
+/* Haut de page */
+header h1 {
+  margin-top: 20px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 5.625em;
+  color: #FFC107;
+  text-align: center;
+  opacity: 0.9;
+}
+
+header {
+  background-color: #00796B;
+  opacity: 0.8;
+  height: 10em;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Corps du site */
+.box_menu {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 20% 5% 20%;
+  box-shadow: 5px 5px 5px;
+  text-align: center;
+}
+
+/* Structure des Menus */
+.menu_note {
+  background-color: #ffcdd2;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 1.5em;
+  color: #3E2723;
+}
+
+.menu_ntd {
+  font-family: 'Dynalight', cursive;
+  background-color: #F5F5F5;
+  font-size: 1.8em;
+  color: black;
+}
+
+.menu_delice {
+  font-family: 'Dynalight', cursive;
+  background-color: #BBDEFB;
+  font-size: 1.8em;
+  color: black;
+}
+
+.logo_menu2 {
+  margin-right: 20px;
+  font-size: 1em;
+}
+
+.effet_menu2 {
+  margin-bottom: 50px;
+}
+
+.titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  height: 80px;
+  width: auto;
+  margin: 20px 20px 20px 20px;
+}
+
+.trait1 {
+  border: 5px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 0;
+  width: 120px;
+}
+
+.titre_entree {
+  font-family: 'Dynalight', cursive;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+
+.colonne_gauche {
+  width: 60%;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.colonne_droite {
+  width: 25%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.box_element {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Effets et Dégradé de couleurs Menus */
+.menu_menu_chic {
+  font-family: 'Redressed', cursive;
+  font-size: 1.8em;
+  background: -webkit-linear-gradient(top, #FF6D00, #7986CB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 30px;
+}
+
+.titre1_md {
+  font-family: 'Dynalight', cursive;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #1A237E, #2196F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 30px;
+}
+
+.titre1_mp {
+  font-family: 'Dynalight', cursive;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #558B2F, #AED581);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 30px;
+}
+
+.titre1 {
+  background-color: #F5F5F5;
+  font-family: 'Redressed', cursive;
+  font-size: 1em;
+  background: -webkit-linear-gradient(left, #FF6D00, #7986CB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 30px;
+}
+
+.effet_menu {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #3E2723;
+}
+
+.effet_menu2 {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #3E2723;
+}
+
+.logo_menu, .logo_menu2 {
+  background: -webkit-linear-gradient(left, rgb(240, 80, 96), rgb(246, 145, 106));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1.5;
+}
+
+/*pied de page*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  background-color: #00796B;
+  opacity: 0.8;
+  height: 100px;
+  width: 100%;
+}
+
+footer button {
+  background-color: #00796B;
+  opacity: 0.8;
+  border: 0;
+}
+
+footer a:link {
+  color: #FFC107;
+  opacity: 0.9;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Bouton Pied de page */
+.btn_mention, .btn_contact {
+  margin: 20px 20px 20px 20px;
+}
+
+/* Animations bouton pied de page */
+.btn_mention:hover {
+  animation-name: wigget;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.btn_contact:hover {
+  animation-name: wigget;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+/* Animation Menu*/
+.titre_entree p {
+  text-decoration: none;
+  line-height: 70px;
+  padding: 0 5px;
+}
+
+.titre_entree p {
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(to top, black 2px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size .5s ease;
+}
+
+.titre_entree p:hover {
+  background-size: 100% 100%;
+}
+
+/* Keyframes */
+@keyframes wigget {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
