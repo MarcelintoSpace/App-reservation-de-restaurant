@@ -25,11 +25,11 @@ h2 {
   color: #FFC107;
   text-align: center;
   opacity: 0.9;
-  font-size: 2.56vw;
+  font-size: 17.50px;
 }
 
 .menu a {
-  font-size: 2.56vw;
+  font-size: 30px;
 }
 
 /* haut de page */
@@ -37,7 +37,7 @@ h2 {
 header h1 {
   margin-top: 20px;
   font-family: 'Fredoka One', cursive;
-  font-size: 6.59vw;
+  font-size: 90px;
   color: #FFC107;
   text-align: center;
   opacity: 0.9;
@@ -136,8 +136,9 @@ header {
 }
 
 .effet_menu:hover {
-  transform: scale(1.30);
+  transform: scale(1.40);
   transition-timing-function: cubic-bezier(.02,.98,.02,.98);
+  opacity: 0.75;
 
 }
 
@@ -147,7 +148,7 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 1.5;
-  font-size: 3.66vw;
+  font-size: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -196,7 +197,7 @@ header {
 .btn_link {
   display: flex;
   width: 450px;
-  line-height: 4.375em;
+  line-height: 70px;
   text-align: center;
   vertical-align: middle;
   align-items: baseline;
@@ -209,15 +210,15 @@ header {
   box-shadow: 5px 5px 5px;
 }
 
-.btn a:link {
+.btn_text a:link {
   font-family: 'Fredoka One', cursive;
   color: #FFC107;
   opacity: 0.9;
-  font-size: 2.93vw;
+  font-size: 35px;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 50px;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .btn a:visited {
@@ -248,8 +249,9 @@ footer a:link {
   color: #FFC107;
   opacity: 0.9;
   text-decoration: none;
-  font-size: 2.05vw;
+  font-size: 30px;
   font-family: 'Fredoka One', cursive;
+  padding-right: 20px;
 }
 
 /* Animations Page d'accueil */
@@ -368,8 +370,28 @@ footer a:link {
   header {
     height: 100px;
   }
-
   .mentions {
     margin: 20px 50px 20px 50px;
   }
+  .btn_text a:link {
+    font-size: 35px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  footer a:link {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  .menu {
+    height: 370px;
+    width: 212px;
+  }
+  .effet_menu:hover {
+    transform: scale(1.20);
+}
+.container_menu {
+  margin-left: 5px;
+  margin-right: 10px;
+}
 }

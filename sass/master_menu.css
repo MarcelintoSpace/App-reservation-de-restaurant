@@ -24,14 +24,14 @@ h2 {
   color: #FFC107;
   text-align: center;
   opacity: 0.9;
-  font-size: 2.19em;
+  font-size: 17.50px;
 }
 
 /* Haut de page */
 header h1 {
   margin-top: 20px;
   font-family: 'Fredoka One', cursive;
-  font-size: 5.625em;
+  font-size: 90px;
   color: #FFC107;
   text-align: center;
   opacity: 0.9;
@@ -63,27 +63,27 @@ header {
 .menu_note {
   background-color: #ffcdd2;
   font-family: 'Ma Shan Zheng', cursive;
-  font-size: 1.5em;
+  font-size: 25px;
   color: #3E2723;
 }
 
 .menu_ntd {
   font-family: 'Dynalight', cursive;
   background-color: #F5F5F5;
-  font-size: 1.8em;
+  font-size: 28px;
   color: black;
 }
 
 .menu_delice {
   font-family: 'Dynalight', cursive;
   background-color: #BBDEFB;
-  font-size: 1.8em;
+  font-size: 28px;
   color: black;
 }
 
 .logo_menu2 {
   margin-right: 20px;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .effet_menu2 {
@@ -110,7 +110,7 @@ header {
 
 .titre_entree {
   font-family: 'Dynalight', cursive;
-  font-size: 1.5em;
+  font-size: 24px;
   color: black;
   text-align: center;
 }
@@ -136,21 +136,19 @@ header {
 /* Effets et Dégradé de couleurs Menus */
 .menu_menu_chic {
   font-family: 'Redressed', cursive;
-  font-size: 1.8em;
+  font-size: 28px;
   background: -webkit-linear-gradient(top, #FF6D00, #7986CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 30px;
 }
 
 .titre1_md {
   font-family: 'Dynalight', cursive;
-  font-size: 1.8em;
+  font-size: 28px;
   margin-bottom: 20px;
   background: -webkit-linear-gradient(left, #1A237E, #2196F3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 30px;
 }
 
 .titre1_mp {
@@ -159,28 +157,26 @@ header {
   background: -webkit-linear-gradient(left, #558B2F, #AED581);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 30px;
 }
 
 .titre1 {
   background-color: #F5F5F5;
   font-family: 'Redressed', cursive;
-  font-size: 1em;
+  font-size: 16px;
   background: -webkit-linear-gradient(left, #FF6D00, #7986CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 30px;
 }
 
 .effet_menu {
   margin-top: 20px;
-  font-size: 2em;
+  font-size: 32px;
   color: #3E2723;
 }
 
 .effet_menu2 {
   margin-top: 20px;
-  font-size: 1em;
+  font-size: 16px;
   color: #3E2723;
 }
 
@@ -199,7 +195,8 @@ footer {
   bottom: 0;
   background-color: #00796B;
   opacity: 0.8;
-  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
 }
 
@@ -213,13 +210,8 @@ footer a:link {
   color: #FFC107;
   opacity: 0.9;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 30px;
   font-family: 'Fredoka One', cursive;
-}
-
-/* Bouton Pied de page */
-.btn_mention, .btn_contact {
-  margin: 20px 20px 20px 20px;
 }
 
 /* Animations bouton pied de page */
@@ -276,5 +268,51 @@ footer a:link {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 400px) {
+  body {
+  width: 100%;
+  }
+  header {
+    height: 100px;
+  }
+  .mentions {
+    margin: 20px 50px 20px 50px;
+  }
+  .btn_text a:link {
+    font-size: 35px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  footer a:link {
+    font-size: 15px;
+  }
+  .titre {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box_menu {
+    margin: 5% 5% 5% 5%;
+  }
+  .effet_menu {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 640px) {
+
+  footer a:link {
+    font-size: 20px;
+  }
+  .btn_mention a {
+    font-size: 20px;
+  }
+
+  .box_menu {
+    margin: 5% 5% 5% 5%;
   }
 }
