@@ -14,7 +14,6 @@ body {
 }
 
 /* Mise en Page */
-
 a {
   text-decoration: none;
   color: #FFC107;
@@ -33,7 +32,6 @@ h2 {
 }
 
 /* haut de page */
-
 header h1 {
   margin-top: 20px;
   font-family: 'Fredoka One', cursive;
@@ -57,7 +55,6 @@ header {
 }
 
 /*corp de l'index*/
-
 .container_menu {
   display: flex;
   flex-flow: row wrap;
@@ -70,7 +67,6 @@ header {
 }
 
 /*structure Menu*/
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -129,7 +125,6 @@ header {
 }
 
 /* Effets & dégradé couleurs Menu */
-
 .effet_menu {
   transform: scale(1);
   transition-duration: 2s;
@@ -137,11 +132,9 @@ header {
 
 .effet_menu:hover {
   transform: scale(1.40);
-  transition-timing-function: cubic-bezier(.02,.98,.02,.98);
-  opacity: 0.75;
-
+  transition-timing-function: cubic-bezier(.02, .98, .02, .98);
+  opacity: 0.30;
 }
-
 
 .logo_menu {
   background: -webkit-linear-gradient(left, rgb(240, 80, 96), rgb(246, 145, 106));
@@ -178,7 +171,6 @@ header {
 }
 
 /* Bouton */
-
 .btn {
   display: flex;
   background-color: white;
@@ -192,7 +184,7 @@ header {
 .btn_link a {
   display: flex;
   flex-flow: row wrap;
-  }
+}
 
 .btn_link {
   display: flex;
@@ -226,7 +218,6 @@ header {
 }
 
 /*pied de page*/
-
 footer {
   display: flex;
   justify-content: space-around;
@@ -234,10 +225,10 @@ footer {
   bottom: 0;
   background-color: #00796B;
   opacity: 0.8;
-padding-top: 30px;
-padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
-  }
+}
 
 footer button {
   background-color: #00796B;
@@ -255,49 +246,48 @@ footer a:link {
 }
 
 /* Animations Page d'accueil */
-
 .point1 {
-    animation-name: petit_point;
-    animation-duration: 1200ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    background-color: #FFC107;
-    opacity: 0.9;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 50%;
-    transform-origin: bottom;
-    width: 10px;
+  animation-name: petit_point;
+  animation-duration: 1200ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  background-color: #FFC107;
+  opacity: 0.9;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transform-origin: bottom;
+  width: 10px;
 }
 
 .point2 {
-    animation-name: petit_point;
-    animation-duration: 1200ms;
-    animation-delay: 400ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    background-color: #FFC107;
-    opacity: 0.9;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 50%;
-    transform-origin: bottom;
-    width: 10px;
+  animation-name: petit_point;
+  animation-duration: 1200ms;
+  animation-delay: 400ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  background-color: #FFC107;
+  opacity: 0.9;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transform-origin: bottom;
+  width: 10px;
 }
 
 .point3 {
-    animation-name: petit_point;
-    animation-duration: 1200ms;
-    animation-delay: 800ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    background-color: #FFC107;
-    opacity: 0.9;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 50%;
-    transform-origin: bottom;
-    width: 10px;
+  animation-name: petit_point;
+  animation-duration: 1200ms;
+  animation-delay: 800ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  background-color: #FFC107;
+  opacity: 0.9;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transform-origin: bottom;
+  width: 10px;
 }
 
 .btn_mention:hover {
@@ -315,7 +305,6 @@ footer a:link {
 }
 
 /* Structure Mentions legales */
-
 .mentions {
   margin: 20px 150px 20px 150px;
 }
@@ -325,20 +314,23 @@ footer a:link {
 }
 
 /* Keyframes */
-
 @keyframes wigget {
   0% {
     transform: rotate(0deg);
-}
+  }
+
   25% {
     transform: rotate(-5deg);
   }
+
   50% {
     transform: rotate(5deg);
-}
+  }
+
   50% {
     transform: rotate(-5deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -348,50 +340,72 @@ footer a:link {
   0% {
     transform: translateY(0);
   }
+
   35% {
     transform: translateY(-15px);
   }
+
   70% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(0);
   }
 }
 
 /* Media querie pour le responsive */
-
 /* Pour smartphone */
-
 @media only screen and (max-width: 600px) {
+
+  /* structure */
   body {
-  width: 100%;
+    width: 100%;
   }
+
+  /* entête */
   header {
     height: 100px;
+    width: 100%;
   }
-  .mentions {
-    margin: 20px 50px 20px 50px;
-  }
-  .btn_text a:link {
-    font-size: 35px;
-  }
+
   header h1 {
     font-size: 50px;
   }
+
+  /*corps du site*/
+  .container_menu {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .menu {
+    width: 80%;
+    margin: 20px 10px 20px 10px;
+  }
+
+  .effet_menu:hover {
+    transform: scale(1.20);
+  }
+
+  /*bouton*/
+  .btn_text a:link {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .btn_link {
+    width: 80%;
+  }
+
+  /*footer*/
   footer a:link {
     font-size: 15px;
     padding-left: 5px;
   }
-  .menu {
-    height: 370px;
-    width: 212px;
+
+  .mentions {
+    margin: 20px 50px 20px 50px;
   }
-  .effet_menu:hover {
-    transform: scale(1.20);
-}
-.container_menu {
-  margin-left: 5px;
-  margin-right: 10px;
-}
 }

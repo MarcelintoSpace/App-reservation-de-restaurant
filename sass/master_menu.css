@@ -54,8 +54,15 @@ header {
 .box_menu {
   display: flex;
   flex-direction: column;
-  margin: 5% 20% 5% 20%;
+  margin: 5% 10% 5% 10%;
   box-shadow: 5px 5px 5px;
+  text-align: center;
+}
+
+.titre_menu p {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  color: black;
   text-align: center;
 }
 
@@ -63,7 +70,7 @@ header {
 .menu_note {
   background-color: #ffcdd2;
   font-family: 'Ma Shan Zheng', cursive;
-  font-size: 25px;
+  font-size: 30px;
   color: #3E2723;
 }
 
@@ -83,7 +90,7 @@ header {
 
 .logo_menu2 {
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .effet_menu2 {
@@ -110,7 +117,7 @@ header {
 
 .titre_entree {
   font-family: 'Dynalight', cursive;
-  font-size: 24px;
+  font-size: 30px;
   color: black;
   text-align: center;
 }
@@ -140,11 +147,11 @@ header {
   background: -webkit-linear-gradient(top, #FF6D00, #7986CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 30px;
 }
 
 .titre1_md {
   font-family: 'Dynalight', cursive;
-  font-size: 28px;
   margin-bottom: 20px;
   background: -webkit-linear-gradient(left, #1A237E, #2196F3);
   -webkit-background-clip: text;
@@ -162,7 +169,6 @@ header {
 .titre1 {
   background-color: #F5F5F5;
   font-family: 'Redressed', cursive;
-  font-size: 16px;
   background: -webkit-linear-gradient(left, #FF6D00, #7986CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -170,13 +176,13 @@ header {
 
 .effet_menu {
   margin-top: 20px;
-  font-size: 32px;
+  font-size: 45px;
   color: #3E2723;
 }
 
 .effet_menu2 {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 25px;
   color: #3E2723;
 }
 
@@ -272,47 +278,45 @@ footer a:link {
 }
 
 /* Responsive */
+@media only screen and (max-width: 640px) {
 
-@media only screen and (max-width: 400px) {
+  /*structure*/
   body {
-  width: 100%;
+    width: 100%;
   }
+
+  /*entête*/
   header {
     height: 100px;
+    width: 100%;
   }
-  .mentions {
-    margin: 20px 50px 20px 50px;
-  }
-  .btn_text a:link {
-    font-size: 35px;
-  }
+
   header h1 {
     font-size: 50px;
   }
-  footer a:link {
-    font-size: 15px;
+
+  .box_menu {
+    margin: 5% 5% 5% 5%;
   }
+
   .titre {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .box_menu {
-    margin: 5% 5% 5% 5%;
-  }
+
   .effet_menu {
     padding-bottom: 20px;
   }
-}
-@media screen and (min-width: 401px) and (max-width: 640px) {
+
+  .btn_text a:link {
+    font-size: 35px;
+  }
 
   footer a:link {
-    font-size: 20px;
-  }
-  .btn_mention a {
-    font-size: 20px;
+    font-size: 15px;
   }
 
-  .box_menu {
-    margin: 5% 5% 5% 5%;
+  .mentions {
+    margin: 20px 50px 20px 50px;
   }
 }
