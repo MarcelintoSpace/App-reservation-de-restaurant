@@ -145,9 +145,9 @@ header {
   font-family: 'Redressed', cursive;
   font-size: 28px;
   background: -webkit-linear-gradient(top, #FF6D00, #7986CB);
+  background : -ms-linear-gradient(top, #FF3D00 0%, #FF6D00 5%, #E040FB 40%, #7986CB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 30px;
 }
 
 .titre1_md {
@@ -302,6 +302,10 @@ footer a:link {
   .titre {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .titre_respon {
+    font-size: 32px;
   }
 
   .effet_menu {

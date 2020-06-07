@@ -71,8 +71,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 380px;
-  height: 490px;
+  width: 40%;
+  height: 650px;
   margin: 50px 50px 50px 50px;
   box-shadow: 2px 2px 2px grey;
 }
@@ -131,7 +131,7 @@ header {
 }
 
 .effet_menu:hover {
-  transform: scale(1.40);
+  transform: scale(1.80);
   transition-timing-function: cubic-bezier(.02, .98, .02, .98);
   opacity: 0.30;
 }
