@@ -68,6 +68,7 @@ header {
 
 /*structure Menu*/
 .menu {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,15 +189,15 @@ header {
 
 .btn_link {
   display: flex;
-  width: 450px;
-  line-height: 70px;
+  width: 400px;
+  line-height: 40px;
   text-align: center;
   vertical-align: middle;
   align-items: baseline;
   background-color: #00796B;
   opacity: 0.8;
   border-radius: 8px;
-  height: 90px;
+  height: 60px;
   padding-top: 20px;
   padding-left: 20px;
   box-shadow: 5px 5px 5px;
@@ -208,9 +209,9 @@ header {
   opacity: 0.9;
   font-size: 35px;
   text-decoration: none;
-  margin-left: 50px;
+  margin-left: 30px;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .btn a:visited {

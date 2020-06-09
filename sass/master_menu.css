@@ -141,13 +141,21 @@ header {
 }
 
 /* Effets et Dégradé de couleurs Menus */
-.menu_menu_chic {
+.menu_font {
   font-family: 'Redressed', cursive;
   font-size: 28px;
-  background: -webkit-linear-gradient(top, #FF6D00, #7986CB);
-  background : -ms-linear-gradient(top, #FF3D00 0%, #FF6D00 5%, #E040FB 40%, #7986CB 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.menu_color1 {
+  color: #C67412;
+}
+
+.menu_color2 {
+  color: #A56799;
+}
+
+.menu_color3 {
+  color: #6E4CCC;
 }
 
 .titre1_md {
